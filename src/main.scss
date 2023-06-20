@@ -1,0 +1,14 @@
+@import './sass/fonts';
+
+body {
+	height: 100vh;
+	margin: 0;
+}
+
+#root {
+	background: linear-gradient(0deg, #6565e7, #af67e9);
+	font-family: $font-family;
+	display: grid;
+	place-items: center;
+	height: 100%;
+}
