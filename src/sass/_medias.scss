@@ -1,0 +1,29 @@
+@import './mixins';
+
+@include desktop() {
+	#faq {
+		display: flex;
+		max-width: 800px;
+		margin: 0 20px;
+
+		.image {
+			position: unset;
+			width: 50%;
+
+			.woman {
+				width: -webkit-fill-available;
+				height: 250px;
+				position: relative;
+				right: 100px;
+			}
+
+			.background {
+				width: -webkit-fill-available;
+				height: 400px;
+				right: 100px;
+				bottom: 300px;
+				position: relative;
+			}
+		}
+	}
+}
